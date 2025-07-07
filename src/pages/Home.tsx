@@ -22,6 +22,10 @@ export default function Home() {
           <h2 className="text-xl font-semibold">🏓 Pong</h2>
           <p className="text-gray-600 text-sm">Le classique Pong arcade</p>
         </Link>
+        <Link to="/sokoban" className="bg-white shadow p-4 rounded hover:shadow-md hover:bg-blue-100 transition">
+          <h2 className="text-xl font-semibold">🧱 Sokoban</h2>
+          <p className="text-gray-600 text-sm">Poussez les caisses sur les cibles</p>
+        </Link>
         {/* Ajoute ici d'autres jeux */}
       </div>
     </div>
